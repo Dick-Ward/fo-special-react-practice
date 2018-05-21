@@ -1,9 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   background-color: RGB(80,80,10);
-
+  font-family: 'Roboto', sans-serif;
 }
 
 .category-box {
@@ -39,12 +38,14 @@ body {
   border: solid;
   border-width: 1px;
   text-align: center;
-  background-color: RGBa(240, 240, 240, .7)
+  background-color: RGBa(240, 240, 240, .7);
+  float: right;
+  margin-right: 10px;
 }
 
 .PRBlock{
   width: 300px;
-  height: 500px;
+  height: 450px;
   border: solid;
   float: right;
   margin-top: 25px;
@@ -71,4 +72,12 @@ body {
   text-align: center;
   height: 40px;
   width: 40px;
+}
+
+.headline{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 3em;
+  color: RGBa(255, 255, 255, .7);
+  background-color: RGBa(255, 255, 255, .1)
 }
