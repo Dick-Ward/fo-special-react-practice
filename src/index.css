@@ -14,7 +14,6 @@ body {
   border-color: RGB(90,90,90);
   background-image: url(dust_scratches.png);
   width: 30%;
-
 }
 
 .category-background {
@@ -22,7 +21,6 @@ body {
 }
 
 .arrow {
-  margin: 5px;
   border: solid;
   border-width: 1px;
 }
@@ -39,8 +37,9 @@ body {
   border-width: 1px;
   text-align: center;
   background-color: RGBa(240, 240, 240, .7);
-  float: right;
+  display: inline;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .PRBlock{
@@ -80,4 +79,10 @@ body {
   font-size: 3em;
   color: RGBa(255, 255, 255, .7);
   background-color: RGBa(255, 255, 255, .1)
+}
+
+.arrow-container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
