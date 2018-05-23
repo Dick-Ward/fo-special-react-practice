@@ -1,30 +1,32 @@
 const specialData = [
   {
-      name: "Strength",
-      points: 2
+    name: "Strength",
+    points: 2
   },
   {
-      name: "Perception",
-      points: 1
+    name: "Perception",
+    points: 1
   },
   {
-      name: "Endurance",
-      points: 2
+    name: "Endurance",
+    points: 2
   },
   {
-      name: "Charisma",
-      points: 1
+    name: "Charisma",
+    points: 1
   },
   {
-      name: "Intelligence",
-      points: 2
+    name: "Intelligence",
+    points: 2
   },
   {
-      name: "Agility",
-      points: 3
+    name: "Agility",
+    points: 3
   },
   {
-      name: "Luck",
-      points: 2
-  },
-]
+    name: "Luck",
+    points: 2
+  }
+];
+
+export default specialData;
