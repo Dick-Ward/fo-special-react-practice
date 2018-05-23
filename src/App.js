@@ -53,7 +53,7 @@ class App extends Component {
     return (
       <div>
         <div className="headline">You're S.P.E.C.I.A.L.</div>
-        {categories}
+        <div className="categoryContainer"> {categories} </div>
         <PointsRemaining pointsRemaining={pointsRemaining} />
       </div>
     );
